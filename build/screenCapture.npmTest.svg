@@ -2,11 +2,11 @@
 <rect height="2046" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
-<tspan x="10" y="42">&gt; npmdoc-laravel-elixir@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-laravel-elixir</tspan>
+<tspan x="10" y="42">&gt; npmdoc-laravel-elixir@0.0.2 test /home/travis/build/npmdoc/node-npmdoc-laravel-elixir</tspan>
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-08T08:03:23Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-08T08:06:03Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">laravel-elixir</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154"></tspan>
@@ -14,90 +14,90 @@
 <tspan x="10" y="186">c-laravel-elixir/test.js</tspan>
 <tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/test-report.json t\</tspan>
 <tspan x="10" y="218">o test-report</tspan>
-<tspan x="10" y="234">&gt; server listening on http-port 58660</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 34256</tspan>
 <tspan x="10" y="250">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/apidoc.html</tspan>
 <tspan x="10" y="266"></tspan>
 <tspan x="10" y="282"></tspan>
 <tspan x="10" y="298">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/t\</tspan>
-<tspan x="10" y="314">mp/electron.15b4c96d2120.5386d22a7530f.html</tspan>
+<tspan x="10" y="314">mp/electron.15b4c9942e10.abb4ddc523d52.html</tspan>
 <tspan x="10" y="330"></tspan>
 <tspan x="10" y="346">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="362">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="378">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="394"></tspan>
 <tspan x="10" y="410">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/t\</tspan>
-<tspan x="10" y="426">mp/electron.15b4c96d25f0.aa4d1a0dc02a3.html</tspan>
+<tspan x="10" y="426">mp/electron.15b4c99431e0.183823b6ae404.html</tspan>
 <tspan x="10" y="442"></tspan>
 <tspan x="10" y="458">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="474">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="490">merging file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/test-report.json t\</tspan>
 <tspan x="10" y="506">o test-report</tspan>
 <tspan x="10" y="522">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="538">[4809:0408/080324:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="554">[4809:0408/080324:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="570">&gt; server listening on http-port 60080</tspan>
-<tspan x="10" y="586">merging file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/test-report.json t\</tspan>
-<tspan x="10" y="602">o test-report</tspan>
-<tspan x="10" y="618">[4847:0408/080325:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="634">in process gpu-process. </tspan>
+<tspan x="10" y="538">[5956:0408/080604:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="554">[5956:0408/080604:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="570">merging file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/test-report.json t\</tspan>
+<tspan x="10" y="586">o test-report</tspan>
+<tspan x="10" y="602">&gt; [5984:0408/080605:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple thread\</tspan>
+<tspan x="10" y="618">s in process gpu-process. </tspan>
+<tspan x="10" y="634">server listening on http-port 49394</tspan>
 <tspan x="10" y="650">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="666">[4809:0408/080325:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="682">[4821:0408/080325:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="698">[4821:0408/080325:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="714">[4878:0408/080325:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="666">[5956:0408/080605:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="682">[5951:0408/080605:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="698">[5951:0408/080605:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="714">[6011:0408/080605:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="730">in process gpu-process. </tspan>
-<tspan x="10" y="746">[4821:0408/080325:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="746">[5951:0408/080605:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
 <tspan x="10" y="762"></tspan>
-<tspan x="10" y="778">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/apidoc.h\</tspan>
-<tspan x="10" y="794">tml</tspan>
+<tspan x="10" y="778">browserTest - opened url http://127.0.0.1:34256?modeTest=1</tspan>
+<tspan x="10" y="794"></tspan>
 <tspan x="10" y="810"></tspan>
-<tspan x="10" y="826"></tspan>
-<tspan x="10" y="842">browserTest - opened url http://127.0.0.1:58660?modeTest=1</tspan>
+<tspan x="10" y="826">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/apidoc.h\</tspan>
+<tspan x="10" y="842">tml</tspan>
 <tspan x="10" y="858"></tspan>
-<tspan x="10" y="874">[4821:0408/080327:INFO:CONSOLE(248)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="874">[5956:0408/080606:INFO:CONSOLE(248)] "----------|-----------|-----------|-----------|-----------\</tspan>
 <tspan x="10" y="890">|</tspan>
 <tspan x="10" y="906">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="922">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="938">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="954">All files |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="970">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="986">", source: file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/electron.15b4c96d25f0\</tspan>
-<tspan x="10" y="1002">.aa4d1a0dc02a3.html (248)</tspan>
-<tspan x="10" y="1018">[4821:0408/080327:INFO:CONSOLE(248)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
-<tspan x="10" y="1034">l", source: file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/electron.15b4c96d25f\</tspan>
-<tspan x="10" y="1050">0.aa4d1a0dc02a3.html (248)</tspan>
+<tspan x="10" y="986">", source: file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/electron.15b4c99431e0\</tspan>
+<tspan x="10" y="1002">.183823b6ae404.html (248)</tspan>
+<tspan x="10" y="1018">[5956:0408/080606:INFO:CONSOLE(248)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="1034">l", source: file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/electron.15b4c99431e\</tspan>
+<tspan x="10" y="1050">0.183823b6ae404.html (248)</tspan>
 <tspan x="10" y="1066">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="1082"></tspan>
 <tspan x="10" y="1098">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
-<tspan x="10" y="1114">tmp/build/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-laravel-\</tspan>
-<tspan x="10" y="1130">elixir%2Ftmp%2Fbuild%2Fapidoc.html.png</tspan>
-<tspan x="10" y="1146"></tspan>
-<tspan x="10" y="1162">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
-<tspan x="10" y="1178">tmp/build/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-laravel-\</tspan>
-<tspan x="10" y="1194">elixir%2Ftmp%2Fbuild%2Fapidoc.html.html</tspan>
+<tspan x="10" y="1114">tmp/build/screenCapture.npmTest.browser.%2F.png</tspan>
+<tspan x="10" y="1130"></tspan>
+<tspan x="10" y="1146">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
+<tspan x="10" y="1162">tmp/build/screenCapture.npmTest.browser.%2F.html</tspan>
+<tspan x="10" y="1178"></tspan>
+<tspan x="10" y="1194">browserTest - exit-code 0 - http://127.0.0.1:34256?modeTest=1</tspan>
 <tspan x="10" y="1210"></tspan>
-<tspan x="10" y="1226">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/apido\</tspan>
-<tspan x="10" y="1242">c.html</tspan>
-<tspan x="10" y="1258"></tspan>
-<tspan x="10" y="1274">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1226"></tspan>
+<tspan x="10" y="1242">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/cove\</tspan>
+<tspan x="10" y="1258">rage.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1274"></tspan>
 <tspan x="10" y="1290"></tspan>
-<tspan x="10" y="1306">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
-<tspan x="10" y="1322">tmp/build/screenCapture.npmTest.browser.%2F.png</tspan>
+<tspan x="10" y="1306">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/\</tspan>
+<tspan x="10" y="1322">test-report.npmTest.browser.%2F.json</tspan>
 <tspan x="10" y="1338"></tspan>
-<tspan x="10" y="1354">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
-<tspan x="10" y="1370">tmp/build/screenCapture.npmTest.browser.%2F.html</tspan>
-<tspan x="10" y="1386"></tspan>
-<tspan x="10" y="1402">browserTest - exit-code 0 - http://127.0.0.1:58660?modeTest=1</tspan>
-<tspan x="10" y="1418"></tspan>
+<tspan x="10" y="1354">[node test-case 5 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1370"></tspan>
+<tspan x="10" y="1386">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
+<tspan x="10" y="1402">tmp/build/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-laravel-\</tspan>
+<tspan x="10" y="1418">elixir%2Ftmp%2Fbuild%2Fapidoc.html.png</tspan>
 <tspan x="10" y="1434"></tspan>
-<tspan x="10" y="1450">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/cove\</tspan>
-<tspan x="10" y="1466">rage.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="1482"></tspan>
+<tspan x="10" y="1450">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/\</tspan>
+<tspan x="10" y="1466">tmp/build/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-laravel-\</tspan>
+<tspan x="10" y="1482">elixir%2Ftmp%2Fbuild%2Fapidoc.html.html</tspan>
 <tspan x="10" y="1498"></tspan>
-<tspan x="10" y="1514">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/\</tspan>
-<tspan x="10" y="1530">test-report.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1514">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/apido\</tspan>
+<tspan x="10" y="1530">c.html</tspan>
 <tspan x="10" y="1546"></tspan>
-<tspan x="10" y="1562">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1562">[node test-case 6 of 6 passed] - testCase_buildApidoc_default</tspan>
 <tspan x="10" y="1578">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="1594">File                               |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="1610">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
@@ -115,8 +115,8 @@
 <tspan x="10" y="1802">o test-report</tspan>
 <tspan x="10" y="1818"></tspan>
 <tspan x="10" y="1834">-------------------------------------------------------</tspan>
-<tspan x="10" y="1850">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-08T08:03:03.342Z</tspan>
-<tspan x="10" y="1866">|   35862 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="1850">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-08T08:05:25.006Z</tspan>
+<tspan x="10" y="1866">|   54127 ms            0 failed        6 passed      |</tspan>
 <tspan x="10" y="1882">-------------------------------------------------------</tspan>
 <tspan x="10" y="1898"></tspan>
 <tspan x="10" y="1914">created test-report file:///home/travis/build/npmdoc/node-npmdoc-laravel-elixir/tmp/build/test-r\</tspan>
@@ -126,6 +126,6 @@
 <tspan x="10" y="1978">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="1994"></tspan>
 <tspan x="10" y="2010"></tspan>
-<tspan x="10" y="2026">[MODE_BUILD=npmTest] - 2017-04-08T08:03:42Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2026">[MODE_BUILD=npmTest] - 2017-04-08T08:06:22Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
