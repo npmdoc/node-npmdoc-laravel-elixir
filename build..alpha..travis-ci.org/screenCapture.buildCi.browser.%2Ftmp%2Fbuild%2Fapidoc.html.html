@@ -361,7 +361,23 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">GulpPaths = function () {}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*
+* @param  {string|Array} src
+* @param  {string|null}  baseDir
+* @param  {string|null}  output
+* @return {GulpPaths}
+*/
+var prepGulpPaths = function(src, baseDir, output) {
+   return new Elixir.<span class="apidocCodeKeywordSpan">GulpPaths</span>()
+       .src(src, baseDir || config.get('assets.js.folder'))
+       .output(output || config.get('public.js.outputFolder'), 'bundle.js');
+};
+
+/**
+* Get a standard Browserify stream.
+*
+...</pre></li>
     </ul>
 
 
@@ -395,7 +411,23 @@
         return this.message(arguments[0]);
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        bundle = function(stream, paths) {
+            this.log(paths.src, paths.output);
+
+            return (
+stream
+.bundle()
+.on('error', function(e) {
+    new Elixir.<span class="apidocCodeKeywordSpan">Notification</span>().error(e, 'Browserify Failed!');
+
+    this.emit('end');
+})
+.pipe(source(paths.output.name))
+.pipe(buffer())
+.pipe($.if(config.sourcemaps, $.sourcemaps.init({ loadMaps: true })))
+.pipe($.if(config.production, $.uglify()))
+...</pre></li>
     </ul>
 
 
@@ -442,7 +474,23 @@
 
     return p.join(basePath, current);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* @param  {string|Array} src
+* @param  {string|null}  baseDir
+* @param  {string|null}  output
+* @return {GulpPaths}
+*/
+var prepGulpPaths = function(src, baseDir, output) {
+   return new Elixir.GulpPaths()
+       .src(src, baseDir || config.<span class="apidocCodeKeywordSpan">get</span>('assets.js.folder'))
+       .output(output || config.get('public.js.outputFolder'), 'bundle.js');
+};
+
+/**
+* Get a standard Browserify stream.
+*
+* @param {object} data
+...</pre></li>
     </ul>
 
 
@@ -482,7 +530,23 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">GulpPaths = function () {}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*
+* @param  {string|Array} src
+* @param  {string|null}  baseDir
+* @param  {string|null}  output
+* @return {GulpPaths}
+*/
+var prepGulpPaths = function(src, baseDir, output) {
+   return new Elixir.<span class="apidocCodeKeywordSpan">GulpPaths</span>()
+       .src(src, baseDir || config.get('assets.js.folder'))
+       .output(output || config.get('public.js.outputFolder'), 'bundle.js');
+};
+
+/**
+* Get a standard Browserify stream.
+*
+...</pre></li>
     </ul>
 
 
@@ -552,7 +616,24 @@ if ( ! this.output.name &amp;&amp; defaultName) {
 
     return this;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* @param  {string|null}  baseDir
+* @param  {string|null}  output
+* @return {GulpPaths}
+*/
+var prepGulpPaths = function(src, baseDir, output) {
+   return new Elixir.GulpPaths()
+       .src(src, baseDir || config.get('assets.js.folder'))
+       .<span class="apidocCodeKeywordSpan">output</span>(output || config.get('public.js.outputFolder'), 'bundle
+.js');
+};
+
+/**
+* Get a standard Browserify stream.
+*
+* @param {object} data
+*/
+...</pre></li>
     </ul>
 
 
@@ -578,21 +659,21 @@ if ( ! this.output.name &amp;&amp; defaultName) {
     };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
- *
- * @param {string} file
- */
-Elixir.setDefaultsFrom = function(file) {
-var overrides;
 
-if (fs.existsSync(file)) {
-    overrides = JSON.<span class="apidocCodeKeywordSpan">parse</span>(fs.readFileSync(file, 'utf8'));
+    src = this.prefix(src, prefix);
 
-    _.mixin({
-        deepExtend: require('underscore-deep-extend')(_)
-    });
+    if (Array.isArray(src)) {
+// If any item in the src array is a folder
+// then we will fetch all of the files.
+src = src.map(function(path) {
+    if (self.<span class="apidocCodeKeywordSpan">parse</span>(path).isDir) {
+        path += '/**/*';
+    }
 
-    _.deepExtend(Elixir.config, overrides);
-}
+    return path;
+});
+
+this.src = { path: src, baseDir: prefix };
 ...</pre></li>
     </ul>
 
@@ -689,7 +770,23 @@ if (Array.isArray(src)) {
 
     return this;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* @param  {string|Array} src
+* @param  {string|null}  baseDir
+* @param  {string|null}  output
+* @return {GulpPaths}
+*/
+var prepGulpPaths = function(src, baseDir, output) {
+   return new Elixir.GulpPaths()
+       .<span class="apidocCodeKeywordSpan">src</span>(src, baseDir || config.get('assets.js.folder'))
+       .output(output || config.get('public.js.outputFolder'), 'bundle.js');
+};
+
+/**
+* Get a standard Browserify stream.
+*
+* @param {object} data
+...</pre></li>
     </ul>
 
 
@@ -847,7 +944,23 @@ var n = Notification.prototype;
         return this.message(arguments[0]);
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        bundle = function(stream, paths) {
+            this.log(paths.src, paths.output);
+
+            return (
+stream
+.bundle()
+.on('error', function(e) {
+    new Elixir.<span class="apidocCodeKeywordSpan">Notification</span>().error(e, 'Browserify Failed!');
+
+    this.emit('end');
+})
+.pipe(source(paths.output.name))
+.pipe(buffer())
+.pipe($.if(config.sourcemaps, $.sourcemaps.init({ loadMaps: true })))
+.pipe($.if(config.production, $.uglify()))
+...</pre></li>
     </ul>
 
 
@@ -876,7 +989,23 @@ var n = Notification.prototype;
     // case it is useful for the user.
     console.log(e);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        bundle = function(stream, paths) {
+            this.log(paths.src, paths.output);
+
+            return (
+stream
+.bundle()
+.on('error', function(e) {
+    new Elixir.Notification().<span class="apidocCodeKeywordSpan">error</span>(e, 'Browserify Failed!');
+
+    this.emit('end');
+})
+.pipe(source(paths.output.name))
+.pipe(buffer())
+.pipe($.if(config.sourcemaps, $.sourcemaps.init({ loadMaps: true })))
+.pipe($.if(config.production, $.uglify()))
+...</pre></li>
     </ul>
 
 
@@ -896,7 +1025,23 @@ var n = Notification.prototype;
         onLast: true
     })(e);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    Elixir.Log.heading('Triggering ' + name + ': ' + command);
+
+    return (
+        gulp
+        .src('')
+        .pipe(Elixir.Plugins.shell(command))
+        .on('error', function(e) {
+            notify.<span class="apidocCodeKeywordSpan">forFailedTests</span>(e, name);
+
+            this.emit('end');
+        })
+        .pipe(notify.forPassedTests(name))
+    );
+})
+.watch(src)
+...</pre></li>
     </ul>
 
 
@@ -916,7 +1061,22 @@ var n = Notification.prototype;
         onLast: true
     });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            .src('')
+            .pipe(Elixir.Plugins.shell(command))
+            .on('error', function(e) {
+                notify.forFailedTests(e, name);
+
+                this.emit('end');
+            })
+            .pipe(notify.<span class="apidocCodeKeywordSpan">forPassedTests</span>(name))
+        );
+    })
+    .watch(src)
+    .watch(Elixir.config.appPath + '/**/*.php', 'tdd')
+    .watch(Elixir.config.viewPath +'/**/*.php', 'tdd');
+};
+...</pre></li>
     </ul>
 
 
